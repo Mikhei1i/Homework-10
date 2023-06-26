@@ -89,12 +89,10 @@
     }
 }
 
-@media (max-width: 290px) {
-    .title1 {
-        font-size: 30px;
-    }
+/* for samsung fold */
 
-    .s1 {
-        background-repeat: repeat-x;
+@media (max-width: 290px) {
+    body {
+        width: 600px;
     }
 }
